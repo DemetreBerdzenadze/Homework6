@@ -112,9 +112,16 @@ figcaption {
 }
 
 footer {
+  display: flex;
   width: 1440px;
   background-color: #758BFD;
+  padding: 75px 98px;
+  justify-content: space-between
   ;
+}
+
+.personal_information {
+  width: 160px;
 }
 
 h4 {
@@ -125,4 +132,42 @@ h4 {
   line-height: 17px;
   /* 85% */
   letter-spacing: 0.2px;
+}
+
+.mail {
+  color: #FFF;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 17px;
+  /* 130.769% */
+  letter-spacing: 0.2px;
+  /*ეს მარჯინები არ მუშაობს ვერმივხვდი რატო*/
+  /*margin-top: 21px;
+  margin-bottom: 12px;*/
+}
+
+.social_icons {
+  /*display: flex;
+  justify-content: space-between;*/
+  /*background-color: red;*/
+  gap: 24px;
+  color: white;
+}
+
+.socials {
+  width: 22px;
+  height: 22px;
+  flex-shrink: 0;
+  color: #FFF;
+}
+
+.PayMenth-Methods {
+  display: inline-flex;
+  justify-content: space-evenly;
+  /*background-color: black;*/
+}
+
+.money {
+  background-color: #ffffff;
 }
